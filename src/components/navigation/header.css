@@ -1,0 +1,30 @@
+.headerContainer {
+  background-color: rgb(0, 151, 189);
+  height: 100px;
+  color: white;
+}
+.headerUserDetail {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.userSetting {
+  cursor: pointer;
+}
+.userSetting:hover {
+  text-decoration: underline;
+}
+.userSetting:active {
+  font-weight: bold;
+}
+.headerCartDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 50%;
+  margin-right: 20px;
+  font-size: 18px;
+}

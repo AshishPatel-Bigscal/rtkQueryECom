@@ -1,0 +1,38 @@
+.prodMasterContainer {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.adminProductEntry {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
+}
+.adminProductEntry div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.d-col {
+  display: flex;
+  flex-direction: column;
+}
+.d-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.adminHeader {
+}
+.adminProductentry {
+}
+.adminProductList {
+  background-color: whitesmoke;
+  width: 90%;
+}
